@@ -1,5 +1,5 @@
 #include "corso.h"
-#include "stdio.h"
+#include <stdio.h>
 
 int conta_linee(FILE* fp);
 //POST: conta il numero di entries nel file
