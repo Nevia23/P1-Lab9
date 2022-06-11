@@ -6,7 +6,8 @@ int main(){
     printf("Inserire dati studente:\n");
     scanf("%s %s", s.nome, s.cognome);
     printf("Inserire %d voti:\n", N_VOTI);
-    for(int i=0; i<N_VOTI; i++){
+    int i;
+    for(i=0; i<N_VOTI; i++){
         scanf("%d", s.voti + i);
     }
     print_studente(s);

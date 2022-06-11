@@ -9,7 +9,8 @@ int main(){
 
     printf("Miglior Studente:\n");
     print_studente(miglior_studente(s, 2));
-    for(int i=0; i<N_VOTI; i++){
+    int i;
+    for(i=0; i<N_VOTI; i++){
         printf("Percentuale superamento corso %d: %f\n", i, percentuale_superamento_test(s, 2, i)*100);
     }
 }
